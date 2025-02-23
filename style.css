@@ -1,0 +1,643 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header-nav{
+    display: flex;
+    gap: 100px;
+}
+
+header{
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+
+.header-link {
+    color: #222; /* Dark gray/blackish color */
+    text-decoration: none; /* Removes underline */
+    font-size: 27px;
+}
+
+.header-link:hover {
+    color: #555; /* Slightly lighter gray */
+}
+
+.header-logo{
+    height: 9%;
+    width: 9%
+}
+
+.banner-label{
+    background-color: rgba(255, 180, 40, 0.3); /* Set background color to orange */
+    color: orange; /* Make text white for contrast */
+    border: none; /* Remove default border */
+    width: fit-content;
+    padding: 10px 40px; /* Add padding for a better shape */
+    border-radius: 20px; /* Make corners rounded */
+    font-size: 20px; /* Adjust font size */
+}
+
+.banner {
+    /* width: 80%;
+    max-width: 900px; */
+    margin: auto;
+    text-align: left;
+    justify-items: auto;
+}
+.banner-text{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #222;
+}
+.banner-header{
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+.stat-number{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.stat-text{
+    font-size: 20px;
+    margin-top: 0;
+    color: #555;
+}
+
+.statistik{
+    justify-content: flex-start;
+    gap: 30px;
+    height: 60px !important;
+}
+.statistik-block{
+    margin: auto;
+    height: 60px !important;
+}
+.btn{
+    background-color: orange; /* Set background color to orange */
+    color: white; /* Make text white for contrast */
+    border: none; /* Remove default border */
+    padding: 20px 50px; /* Add padding for a better shape */
+    border-radius: 30px; /* Make corners rounded */
+    font-size: 18px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer */
+}
+.background-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.banner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+ .partone{
+    display: flex;
+    width: 85vw;
+    margin:auto;
+ }
+.partone div{
+    position: relative;
+    width: 50%;
+    height: 90vh;
+}
+.review-message-left{
+    position: absolute !important;
+    background-color: white; /* Set background color to orange */
+    border: none; /* Remove default border */
+    padding: 20px 50px; /* Add padding for a better shape */
+    border-radius: 30px; /* Make corners rounded */
+    font-size: 18px; /* Adjust font size */
+    display: flex;
+    gap: 20px;
+    right: 50%;
+    bottom: 10%;
+    height: fit-content !important;
+    width: fit-content !important;
+}
+.review-message-left img{
+    height: 70px;
+    width: 70px;
+}
+.review-text{
+    text-align: center;
+    margin: auto;
+    height: fit-content !important;
+    width: 175px !important;
+}
+.review-text img{
+    width: 20px;
+    height: 20px;
+}
+.review-message-right{
+    position: absolute !important;
+    background-color: white; /* Set background color to orange */
+    border: none; /* Remove default border */
+    padding: 20px 50px; /* Add padding for a better shape */
+    border-radius: 30px; /* Make corners rounded */
+    font-size: 18px; /* Adjust font size */
+    right: 10%;
+    bottom: 0;
+    height: fit-content !important;
+    width: fit-content !important;
+    padding-bottom: 0;
+}
+.review-message-right img{
+    width: 150px;
+    height: 100px;
+    padding-bottom: 0px;
+}
+.flowing-stats{
+    display: flex;
+    position: relative;
+    /* height: 40vh !important; */
+    justify-content: space-between;
+    align-items: bottom;
+    width: fit-content;
+}
+.review-message-right h2{
+    width: fit-content;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.review-message-right h3{
+    width: fit-content;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.section2-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 300px;
+}
+
+.section2-header h2 {
+    font-size: 50px;
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+    min-width: 250px;
+}
+
+.section2-header p {
+    flex: 1;
+    text-align: left;
+    min-width: 250px;
+    color: #555;
+    font-size: 30px;
+}
+.ad-card-holder {
+    display: flex;
+    justify-content: center; /* Ensures proper spacing */
+    align-items: stretch; /* Keeps them the same height */
+    gap: 6%; /* 1/4 of width */
+    margin-bottom: 30px;
+}
+
+.ad-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 20vw;
+    height: 40vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.ad-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align everything to the left */
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+    width: 20vw;
+    height: 27vw;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.ad-card-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Aligns image to the left */
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.ad-card-img img {
+    max-width: 60%; /* Keeps image size consistent */
+    max-height: 60%;
+    object-fit: contain;
+    margin-left: 10px; /* Adds some space from the edge */
+}
+
+.ad-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Aligns text and button to the left */
+    padding: 10px;
+    width: 100%;
+}
+.ad-card-content h3 {
+    font-size: 30px; /* Increase the font size of h3 */
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ad-card-content p {
+    margin-top: 0px;
+    text-align: left;
+    color: #555;
+    font-size: 20px;
+}
+.learn-more-btn {
+    margin-top: 10px;
+    padding: 10px 20px; /* Slightly larger padding */
+    background-color: transparent; /* Transparent background */
+    color: black; /* Orange color for the text */
+    border: 2px solid transparent; /* No border initially */
+    border-radius: 15px; /* More rounded corners */
+    cursor: pointer;
+    transition: all 0.3s; /* Smooth transition for all properties */
+}
+
+.learn-more-btn:hover {
+    background-color: orange; /* Orange background on hover */
+    color: white; /* Change text color to white on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header p {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    section > div {
+        flex-direction: column;
+    }
+}
+
+/* Section Styles */
+.review-section {
+    background-color: #fde6be; /* Dim orange background */
+    display: flex !important;
+    justify-content: center !important;  /* Centers horizontally */
+    align-items: center !important;      /* Centers vertically */
+    height: 100vh !important;            /* Ensures the section takes the full viewport height */
+    width: 100%;
+}
+.review-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    /* gap: 50px; */
+}
+
+.review-container {
+    display: flex;
+    justify-content: flex-start; /* Align children horizontally to the left */
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: fit-content; /* Makes the container width adjust to its content */
+    margin-right: 20px;
+}
+
+.review-container-text {
+    text-align: left;
+    margin: auto;
+    height: fit-content !important;
+    width: fit-content !important;
+}
+
+.review-container-text h3 {
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+.review-container-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Review Cards Container - Right Side */
+.review-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+/* Update the parent container to be flex with row layout */
+.review-section {
+    display: flex;
+    flex-direction: row;  /* Align children horizontally in a row */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px; /* Gap between left and right sections */
+    width: 100%;
+}
+
+/* Update the review-cards container */
+.review-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Individual Review Card Styles */
+.review-card {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;  /* Align the text to the left */
+    display: flex;
+    flex-direction: column;  /* Arrange the content horizontally */
+    align-items: left;  /* Vertically align items */
+    justify-content: flex-start;  /* Ensure elements are left aligned */
+    width: 200px;
+}
+
+/* Image styles: less rounded and on the left */
+.review-card img {
+    width: 80px; /* Make the image slightly smaller */
+    height: 80px; 
+    border-radius: 10px; /* Less rounded */
+    object-fit: cover;
+    margin-right: 15px; /* Add space between image and text */
+    margin-bottom: 40px;
+}
+
+/* Title styles */
+.review-card h4 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0px;
+}
+
+/* Age styles */
+.review-card h6 {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Review text styles */
+.review-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.arrow-button {
+    font-size: 15px;            /* Make the text bigger */
+    padding: 16px 16px;         /* Increase padding for bigger buttons */
+    background-color: orange;  /* Set orange background */
+    color: white;               /* Set text color to white */
+    border-radius: 8px;         /* Slight rounding of the corners */
+    border: none;               /* Remove default border */
+    cursor: pointer;           /* Change cursor to pointer when hovered */
+    transition: background-color 0.3s;  /* Smooth transition for background on hover */
+    margin-right: 15px;
+}
+.bold-span {
+    font-size: 50px;       /* Adjust the font size */
+    font-weight: bold;     /* Make the text bold */
+}
+.small-span {
+    font-size: 20px;
+    color: #555;
+}
+/* Styling the section */
+/* Styling the section */
+.menu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-header h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+}
+
+.menu-header h2 {
+    font-size:50px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Menu container for aligning menu items in a row */
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    align-items: flex-end; /* Aligns menu items to the bottom of the container */
+    padding-left: 300px; /* Adds padding to the left and right of the container */
+    padding-right: 300px;
+}
+
+.menu-item {
+    width: 17vw;
+    height: 50vh; /* Height is three times bigger than the width */
+    border-radius: 25px; /* Rounded corners */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns text to the bottom */
+    padding: 20px;
+    color: white; /* Ensures text is visible on top of the image */
+}
+
+.menu-text {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* Styling the name and price */
+.menu-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.menu-price {
+    font-size: 34px; /* Make the price bigger */
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.subscribtion-section{
+    display: flex;
+    justify-content: center;  /* Centers the main div horizontally */
+    align-items: center;      /* Centers the main div vertically */
+    height: 100vh;            /* Full height of the viewport */
+    flex-direction: column;   /* Aligns all child elements in a column */
+}
+
+.subscribtion-window {
+    background-color: rgba(255, 165, 0, 0.1); /* Very dim orange background */
+    padding: 40px;
+    border-radius: 20px;  /* Rounded container */
+    text-align: center;
+    width: 55vw;
+    height: 50vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow for a clean look */
+}
+
+.subsc-text {
+    margin-bottom: 20px;
+}
+.subsc-text h5 {
+    color: orange;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.subsc-text h2 {
+    color: #555;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.subsc-text h6 {
+    color: #777;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.email-subscription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    width: 600px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.email-subscription input {
+    flex: 1; /* Takes available space */
+    padding: 10px 15px;
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded input */
+    outline: none;
+    background-color: transparent; /* Blends with white background */
+    font-size: 16px;
+}
+
+.email-subscription button {
+    padding: 10px 20px;
+    background-color: #FFA500; /* Orange background */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.email-subscription button:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between; /* Distributes the divs evenly */
+    align-items: start;
+}
+.footer-link {
+    color: #555;
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 18px; /* Removes underline */
+}
+.navigation ul {
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Aligns items in a row */
+    flex-direction: column; /* Keeps them in a column */
+    gap: 20px; /* Adjusts space between items */
+}
+.footer-div {
+    display: flex;
+    flex-direction: column; /* Makes items inside stack in a column */
+    align-items: left;
+    text-align: left;
+}
+.footer-div p{
+    color: #555;
+}
+.footer-div-two {
+    display: flex;
+    flex-direction: column; /* Makes items inside stack in a column */
+    align-items: left;
+    text-align: left;
+}
+.row {
+    display: flex;          /* Makes items inside the div align in a row */
+    justify-content: flex-start;  /* Aligns the items to the left, can be changed to 'center' or 'space-between' if needed */
+    align-items: center;    /* Centers the items vertically */
+    gap: 10px;
+}
+
+.row img{
+    width: 10%;
+    height: 10%;
+}
+.footer-div-four{
+    font-size: 18px;
+    gap: 20px;
+}
+.footer-div-four img{
+    width: 20%;
+    height: 20%;
+}
